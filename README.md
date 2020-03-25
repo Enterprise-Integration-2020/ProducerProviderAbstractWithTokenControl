@@ -1,12 +1,11 @@
 # ProducerProviderAbstractWithTokenControl
 Producer Provider With Token Control
 
-The project is to be used under the Enterprise Integration course (2020 edition) and the goal is to be customized by students (if needed). To compile execute the following two steps:
+The project is to be used under the Enterprise Integration course (2020 edition) and the goal is to be customized by students (if needed). To compile execute the following:
 ````
-mvn package
 mvn package shade:shade
 ````
-The usage of Provider Producer for MaaS Simulator is the following.
+The usage of this Provider Producer for MaaS Simulator is the following.
 ````
 MaaSMessageProviderWithTokenControl --provider-name <Name to assign to the provider> --broker-list <KafkaBrokerList with Ports> --topic <topic> --token-list <token-list> --throughput <value> --typeMessage <value>
 where, 
